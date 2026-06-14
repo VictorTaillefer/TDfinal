@@ -1,4 +1,4 @@
-# 🛡️ ANSSI Cyber-Enricher & Analyzer
+# ANSSI Cyber-Enricher & Analyzer
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Library-Pandas-150458.svg)](https://pandas.pydata.org/)
