@@ -33,8 +33,8 @@ Ce projet est une solution complète pour la **collecte, l'enrichissement et l'a
 ```text
  TDfinal
 ├──  main.py                # Script principal d'enrichissement (JSON -> CSV)
-├──  dataset_use.ipynb      # Analyse, Machine Learning et Système d'alerte
-├──  scrapSample.ipynb       # Scraping initial des données
+├──  Dataset_implementation.ipynb      # Analyse, Machine Learning et Système d'alerte
+├──  Online_Scrap_Sample.ipynb       # Scraping initial des données
 ├──  donnees_anssi_enrichies.csv  # Base de données consolidée
 ├──  data/                  # Données brutes (non incluses ou échantillons)
 │   ├──  alertes/           # Bulletins d'alertes ANSSI
@@ -63,12 +63,12 @@ python main.py
 
 ### 3. Extraction dynamique (Scraping & APIs)
 Si vous souhaitez générer un jeu de données à partir des dernières publications en ligne :
-1. Ouvrez le notebook `scrapSample.ipynb`.
+1. Ouvrez le notebook `Online_Scrap_Sample.ipynb`.
 2. Exécutez les cellules pour scraper les flux RSS de l'ANSSI et interroger les APIs MITRE/FIRST.
 3. Cela générera le fichier `sample_data_from_scrap.csv`.
 
 ### 4. Analyse, ML & Alerting
-Ouvrez `dataset_use.ipynb` pour exploiter les données générées (soit le CSV massif, soit l'échantillon scrapé) :
+Ouvrez `Dataset_implementation.ipynb` pour exploiter les données générées (soit le CSV massif, soit l'échantillon scrapé) :
 - Visualiser les graphiques statistiques.
 - Entraîner les modèles de Machine Learning.
 - Configurer et tester les alertes emails.
